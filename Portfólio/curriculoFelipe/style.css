@@ -1,0 +1,79 @@
+body{
+    /* background-color: #3533cd; */
+    background-image: linear-gradient(to right,rgb(0, 0, 0), #3533cd);
+    color: white;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    
+    
+}
+
+header{
+    justify-content: right;
+
+}
+    
+a{
+    text-decoration: none;
+    padding: 8px;
+    color: #ffffff;
+    font-family: "Lato-Regular";
+}
+
+
+main img{
+    height: 250px;
+    padding: 10px;
+    align-self: normal;
+}
+
+.frase{
+    padding: 10px;
+    font-family: "Lato-Regular";
+}
+
+.titulo{
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    
+}
+p{
+    padding: 10px;
+}
+
+.informações{
+   justify-content: center;
+   padding: 5px;
+   display: flex;
+   flex-direction: column;
+   font-family: "Lato-Regular";
+}
+
+h3{
+    padding: 15px;
+}
+
+.linha-horizontal{
+    width: 1836px;
+    border: 1px solid #ffffff;
+}
+
+#nome{
+    border: 1px solid #ffffff;
+    width: 200px;
+}
+
+.dados{
+    display: inline-block;
+    padding: 20px;
+    font-family: "Lato-Regular";
+    
+}
+
+.extra{
+    display: inline-block
+}

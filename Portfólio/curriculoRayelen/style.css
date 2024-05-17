@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: cornsilk;
+    background-color: saddlebrown;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: lightslategray;
+}
+
+section {
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10%;
+    margin: 200px 100px; 
+}
+
+section img {
+    width: 200px; 
+    height: auto;
+    display: block;
+    border-radius: 50%; 
+    margin: 0 auto;
+}
+
+#information p {
+    margin: 0 100px 150px; 
+}
+
+#experience h3, #formation h3 {
+    text-align: center;
+    overflow: hidden;
+    margin: 100px; 
+}
+
+#experience ul, #formation ul, span ul {
+    text-align: center;
+    overflow: hidden;
+    margin: 0 100px 100px; 
+    
+}
+
+ul {
+    margin-bottom: 60px;
+}
+
+#formation ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+#language ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#adicionais h2 {
+    margin-top: 150px;
+
+}
+#adicionais ul {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+footer {
+    background-color: antiquewhite;
+    color: saddlebrown;
+    text-align: center;
+}
+
+footer hr {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer h1, footer h2 {
+    flex: 1;
+    margin-bottom: 40px;
+}
+
+footer img {
+    margin: 0 10px;
+    width: auto;
+    height: 30px; 
+}
+

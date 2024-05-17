@@ -1,0 +1,134 @@
+body {
+    background-image: url('assets/game.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+header {
+    padding: 20px;
+}
+
+.image {
+    width: 250px;
+    margin: auto;
+}
+
+header p {
+    text-align: center;
+    font-size: xx-large;
+    white-space: pre-line;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #f3eff3;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 10px rgb(183, 12, 180), 0px 0px 5px rgb(181, 22, 181);
+
+}
+strong{
+    text-shadow: 0px 0px 10px rgb(62, 26, 208), 0px 0px 3px rgb(19, 36, 186);
+
+}
+
+.nav a:hover {
+    color: #e37fff;
+}
+
+main {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 100px;
+    background-color:rgba(5, 13, 80, 0.4);
+}
+
+p, h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+h2{
+    color: whitesmoke;
+}   
+
+#Quemsomos > p{
+    white-space: pre-line;
+}
+
+#principal, #Quemsomos {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200%;
+  }
+  
+  .image-container {
+    margin: 10px;
+  }
+  
+  .circular-image {
+    width: 200px; 
+    height: 215px; 
+    border-radius: 50%; 
+    border: 5px solid #440acc;
+   
+  }
+
+  footer {
+    width: 100%;
+    background-color: rgba(5, 13, 80, 0.6);
+    color: rgb(220, 212, 205);
+    text-align: center;
+    position: relative;
+  }
+  
+  footer hr {
+    width: 100%; 
+    margin: 40px auto;
+    border-color: rgb(225, 217, 212);
+  }
+  
+footer h1, footer h2 {
+    margin-bottom: 20px;
+  }
+  footer img {
+    margin: 0 30px;
+    width: auto;
+    height: 70px; 
+}
+
+form{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+
+}
+    
+label{
+    color: white;
+}
+
